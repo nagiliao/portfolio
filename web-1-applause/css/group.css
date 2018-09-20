@@ -1,0 +1,153 @@
+
+/* Focus style */
+
+.custom-select select:focus {
+	outline: none;
+	box-shadow: none;
+	border: 1px solid transparent;
+}
+
+
+/* Set options to normal weight */
+
+.custom-select option {
+	font-weight: bold;
+	background: #fff;
+	box-shadow: none;
+}
+
+
+/* Top Navigation Style */
+
+
+.codrops-links::after {
+	position: absolute;
+	top: -5%;
+	left: 50%;
+	width: 3px;
+	margin-left: -1px;
+	height: 110%;
+	background: #fff;
+	content: '';
+	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
+	transform: rotate3d(0, 0, 1, 22.5deg);
+}
+
+.codrops-icon {
+	display: inline-block;
+	margin: 1em;
+	width: 1.5em;
+	text-decoration: none;
+}
+
+.codrops-icon span {
+	display: none;
+}
+
+.codrops-icon::before {
+	margin: 0 5px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon--drop::before {
+	content: "\e001";
+	color: #0099cc;
+}
+
+.codrops-icon--prev::before {
+	content: "\e004";
+}
+
+
+/* Colors */
+
+/* 1 */
+
+.anim--effect-1 .codrops-header__subbox {
+	color: #605BD4;
+}
+
+.anim--effect-1 .custom-select,
+.anim--effect-1 .codrops-links,
+.anim--effect-1 .pater {
+	background: #605BD4;
+}
+
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		width: 100%;
+		font-size: 0.8em;
+		-webkit-box-flex: 0;
+		-ms-flex: none;
+		flex: none;
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+	}
+	.codrops-header__title {
+		display: block;
+		margin: 0;
+		width: 100%;
+		padding: 1em;
+	}
+	.codrops-header__subbox {
+		max-width: none;
+		width: 100%;
+		margin: 0;
+		text-align: left;
+		font-size: 1em;
+		padding: 1em;
+	}
+	.codrops-links {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		border-right: 0;
+		padding: 0;
+		width: 100%;
+		border: 3px solid #fff;
+		border-bottom: 0;
+		text-align: center;
+		display: block;
+	}
+	.pater {
+		margin: 0;
+		max-width: none;
+		font-size: 0.85em;
+		padding: 2.5em 1em 1em;
+	}
+	.pater::after {
+		top: 1em;
+		left: 1em;
+	}
+	.pater__img {
+		width: 160px;
+	}
+	.container .page {
+		padding: 2.85em;
+	}
+	.container .pagenav {
+		top: 0.5em;
+		left: 0.5em;
+		right: 0.5em;
+		bottom: 0.5em;
+		font-size: 0.85em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.pater__title {
+		font-size: 1em;
+	}
+	.pater__img {
+		max-width: 75%;
+	}
+}

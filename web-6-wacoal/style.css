@@ -1,0 +1,111 @@
+
+@import url(http://campaign.js-adways.com.tw/wacoal/reset.css);
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Arial", 'Quicksand', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+#main{
+    position: relative;
+}
+
+
+.btn{
+    position: absolute;
+    bottom: 70px;
+    left: 60px;
+}
+/*
+.btn a{
+    display: inline-block;
+    margin-left: 15px;
+}
+*/
+@media screen and (min-width: 801px) and (max-width: 1081px) {
+    /*如果使用者之視窗寬度介於 801px ~ 1081px，將會再載入這裡的 CSS。*/  
+    .btn_size{
+        width: 250px;
+        height: 176px;
+    }
+    .btn{
+        bottom: 70px;
+        left: 120px;
+    }
+    .btn a{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 800px) {
+    /*如果使用者之視窗寬度介於 720px ~ 800px，將會再載入這裡的 CSS。*/  
+    .btn_size{
+        width: 190px;
+        height: 134px;
+    }
+    .btn{
+        bottom: 70px;
+        left: 65px;
+    }
+    .btn a{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 719px) {
+    /*如果使用者之視窗寬度介於 541px ~ 719px，將會再載入這裡的 CSS。*/  
+    .video-container{
+	position:absolute;
+	padding-top: 30px;
+	bottom: 240px;
+    left: 100px;
+	}
+	.btn_size{
+        width: 190px;
+        height: 134px;
+    }
+    .btn{
+        bottom: 70px;
+        left: 20px;
+    }
+    .btn a{
+        margin-right: 5px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 540px) {
+   /*如果使用者之視窗寬度介於 481px ~ 540px，將會再載入這裡的 CSS。*/  
+    .btn_size{
+        width: 160px;
+        height: 113px;
+    }
+    .btn{
+        bottom: 50px;
+        left: 15px;
+    }
+    .btn a{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    /*如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。 */
+    .btn_size{
+        width: 120px;
+        height: 85px;
+    }
+    .btn{
+        bottom: 30px;
+        left: 45px;
+    }
+    .btn a{
+        margin-right: 5px;
+    }
+}

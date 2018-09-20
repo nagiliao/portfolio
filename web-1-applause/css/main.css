@@ -1,0 +1,488 @@
+@import url("styleforfixedpage.css") screen;
+@import url("styleformenu.css") screen;
+@import url("default.css") screen;
+@import url("component-forBGslider.css") screen;
+@import url("component.css") screen;
+@import url("fordemo.css") screen;
+@import url("forfullvideo.css")  screen;
+@import url("normalize.css")  screen;
+@import url("group.css")  screen;
+@import url("component-forGroupslider.css")  screen;
+@import url("animation.css")  screen;
+@import url("colorbox.css") screen;
+
+/*bg-pic*/
+.bg-pic-technology{
+    background-image: url("../img/bg-pic-technology.gif");
+    background-repeat: no-repeat;
+    }
+    .content-1 .technology-pos{
+        background-position: 0 -40px;
+        width: 663px; height: 400px;
+        float: right;
+        position: absolute;
+        right:0;
+        top:1000px;
+        z-index: 2;}
+/*section*/
+.index-section-pos{
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    .content-section {
+    font-size: 1em;
+    line-height: 2em;
+        text-align:center
+}
+    p{
+    font-size:1.125em;
+    }
+
+    h4{
+    display: inline-block;
+    top:20%;
+    margin: 0 auto;
+    color:#ea7340;
+    font-size: 1.667em;
+    font-weight: bold;
+    line-height: 1.25em;
+    }
+    .content-section p{
+        margin: 1em auto;
+    }
+    .content-section img{
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+@media only screen and (min-width: 1170px) {
+    .index-section-pos{
+      max-width: 1300px;
+    }
+
+    .content-section h4{
+    position: absolute;
+    display: inline-block;
+    top:40%;
+    }
+    .content-section .p-pos{
+        position: absolute;
+        top:50%;
+        width: 520px;
+        margin: 0;
+    }
+    .content-section img{
+        margin-left: 52%;
+    }
+}
+
+.horizenline{
+    width: 100%;
+    height: 1px;
+    background-color: #858b95;
+}
+.mar-top-3em{margin-top: 3em;}
+
+
+/*gotopBTN*/
+.back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;   
+}
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+    text-decoration:none;
+    color:#ffffff;
+}
+
+
+/*index_imfor*/
+.index-information{
+    margin: 0 auto;
+    width: 90%;
+    max-height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 2% 0;
+    text-align: center;
+}
+.infor-section-pos{
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    padding: 1em;
+}
+.infor-section-posL{
+    display: inline-block;
+    width: 100%;
+    height: 28.125em;
+    padding: 2em;    
+    }
+.infor{
+        text-align: center;
+}
+    .infor img, .infor h4{
+        margin-bottom: 0.5em;
+        font-size: 1.25em;
+    }
+    .infor p{
+        color: #e9eff6;
+        font-size: 1em;
+        line-height: 2em;
+        text-align: left;
+    }    
+    .infor .infor-ul{
+        background-color: rgba(256,256,256,0.4);
+        width: 90%;
+        height: 70%;
+        margin: 0 auto;
+    }
+@media only screen and (min-width: 727px) {
+.infor-section-pos{
+    width: 90%;
+    height: 17.5em;
+    padding: 1.5em;
+}
+.infor-section-posL{
+    height: 20em; 
+    }
+    .infor img, .infor h4{
+        display: block;
+        margin: 0.5em auto;
+        font-size: 1.667em;
+    }
+    .infor p{
+        font-size: 1.125em;
+
+    }    
+    .infor .infor-ul{
+        background-color: rgba(256,256,256,0.4);
+        width: 90%;
+        height: 70%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1170px) {
+.index-information{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 2% 0;
+    text-align: center;
+}
+.infor-section-pos{
+    display: inline-block;
+    width: 30.25em;
+    height: 25em;
+    padding: 2em;
+}
+.infor-section-posL{
+    display: inline-block;
+    width: 100%;
+    height: 28.125em;
+    padding: 2em;    
+    }
+.infor{
+        text-align: center;
+}
+    .infor img, .infor h4{
+        margin-bottom: 1.25em;
+    }
+    .infor p{
+        color: #e9eff6;
+        font-size: 1.125em;
+        line-height: 2.25em;
+        text-align: left;
+    }    
+    .infor .infor-ul{
+        background-color: rgba(256,256,256,0.4);
+        width: 90%;
+        height: 70%;
+        margin: 0 auto;
+    }
+}
+
+/*footer*/
+.all-footer{
+    display: inline-block;
+    width: 100%;
+    height: 12.5em;
+    background-color: #858b95;
+    text-align: center;
+    color: #f1f7fa;
+    padding: 5%;}
+
+/*btn*/
+
+.btn-pos{
+    position: absolute;
+    bottom:5%;
+    width: 100%;
+    height: auto;
+  text-align: center;
+}
+.btn-pos a,.btn-deep a{
+    display: block;
+    width: 265px;
+    height: 71px;
+}
+.btn-pos a:hover,.btn-deep a:hover{
+    background-color: rgba(0,0,0,0.2);
+  transition: all 0.3s linear 0.1s;
+    -webkit-transition: all 0.3s linear 0.1s;
+    -moz-transition: all 0.3s linear 0.1s;
+    -ms-transition: all 0.3s linear 0.1s;
+    -o-transition: all 0.3s linear 0.1s;
+}
+
+.btn-center{
+    width: 100%;
+    text-align: center;
+}
+
+.btn-deep{
+    display: inline-block;    
+    background-color: #ea5413;    
+    width: 265px;
+    height: 71px;
+    margin-bottom: 1em;
+}
+.btn-deep a{
+    color:#fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 71px;
+}
+.btn-deep a:hover{
+    color:#efefef;
+}
+.btn-light{
+    display: inline-block;
+    background-color: #fff;
+    border: #ea5413 3px solid;
+    width: 265px;
+    height: 71px;
+    margin-bottom: 1em;
+}
+.btn-light a{
+    color:#ea5413;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.btn-light a:hover{
+    color: #d64b0e;
+}
+@media only screen and (min-width: 768px) {
+ .btn-pos{
+    position: absolute;
+    top:70%;
+    width: 100%;
+    height: auto;
+  text-align: center;
+}
+ .btn-deep{
+    display: inline-block;    
+    background-color: #ea5413;    
+    width: 265px;
+    height: 71px;
+    margin-right: 1em; 
+    text-align: center;
+}
+.btn-deep a{
+    color:#fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 71px;    
+}
+.btn-deep a:hover{
+    color:#efefef;
+}
+.btn-light{
+    display: inline-block;
+    background-color: #fff;
+    border: #ea5413 3px solid;
+    width: 265px;
+    height: 71px; 
+}
+.btn-light a{
+    color:#ea5413;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.btn-light a:hover{
+    color: #d64b0e;
+    transition: all 0.3s linear 0.1s;
+    -webkit-transition: all 0.3s linear 0.1s;
+    -moz-transition: all 0.3s linear 0.1s;
+    -ms-transition: all 0.3s linear 0.1s;
+    -o-transition: all 0.3s linear 0.1s;
+}   
+}
+
+/*sprite*/
+.sprite {
+    background-image: url("../img/pic-native-SDK-sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-center{
+    position: absolute;
+    top:0;bottom:0;
+    left:0;right:0;
+    margin: auto auto;
+}
+
+.sprite-meiation {
+    width: 60px;
+    height: 47px;
+    background-position: -10px -10px;
+}
+
+.sprite-phone {
+    width: 34px;
+    height: 50px;
+    background-position: -10px -77px;
+}
+
+.sprite-3-5 {
+    width: 48px;
+    height: 48px;
+    background-position: -10px -147px;
+}
+
+.sprite-layout {
+    width: 55px;
+    height: 44px;
+    background-position: -10px -215px;
+}
+
+.sprite-prefetch {
+    width: 66px;
+    height: 69px;
+    background-position: -10px -279px;
+}
+@media only screen and (max-width: 321px) {
+.sprite {background-size: 58px auto;}
+ 
+.sprite-meiation {background-position:  0px -5px;}
+.sprite-phone {   background-position: -2px -44px;}
+.sprite-3-5 {     background-position:  0px -90px;}
+.sprite-layout {  background-position:  0px -138px;}
+.sprite-prefetch {background-position:  0px -180px;}
+}
+
+
+.sprite-ad {
+    background-image: url("../img/pic-advertising-targeting-sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-OS {
+    width: 48px;
+    height: 48px;
+    background-position: -20px -20px;
+}
+
+.sprite-percent {
+    width: 36px;
+    height: 34px;
+    background-position: -20px -108px;
+}
+
+.sprite-brand {
+    width: 64px;
+    height: 64px;
+    background-position: -20px -182px;
+}
+
+.sprite-calender {
+    width: 49px;
+    height: 54px;
+    background-position: -20px -286px;
+}
+
+.sprite-capping {
+    width: 41px;
+    height: 49px;
+    background-position: -20px -380px;
+}
+
+.sprite-classification {
+    width: 52px;
+    height: 44px;
+    background-position: -20px -469px;
+}
+
+.sprite-click {
+    width: 49px;
+    height: 65px;
+    background-position: -20px -553px;
+}
+
+.sprite-click2 {
+    width: 45px;
+    height: 60px;
+    background-position: -20px -658px;
+}
+
+.sprite-name {
+    width: 50px;
+    height: 50px;
+    background-position: -20px -758px;
+}
+
+.sprite-scan {
+    width: 55px;
+    height: 55px;
+    background-position: -20px -848px;
+}
+
+.sprite-time-watch {
+    width: 50px;
+    height: 50px;
+    background-position: -20px -943px;
+}
+
+.sprite-watch {
+    width: 50px;
+    height: 38px;
+    background-position: -20px -1033px;
+}
+
+.sprite-wifi {
+    width: 52px;
+    height: 39px;
+    background-position: -20px -1111px;
+}
+
+@media only screen and (max-width: 321px) {
+.sprite-ad {background-size: 70px auto;}
+
+.sprite-OS {      background-position: -8px -8px;}
+.sprite-percent { background-position: -8px -65px;}
+.sprite-brand {   background-position: -3px -112px;}
+.sprite-calender {background-position: -6px -185px;}
+.sprite-capping { background-position: -8px -250px;}
+.sprite-classification { background-position: -5px -310px;}
+.sprite-click {   background-position: -5px -360px;}
+.sprite-click2 {  background-position: -8px -432px;}
+.sprite-name {    background-position: -6px -502px;}
+.sprite-scan {    background-position: -8px -563px;}
+.sprite-time-watch { background-position: -6px -625px;}
+.sprite-watch {   background-position: -5px -690px;}
+.sprite-wifi {    background-position: -5px -740px;}
+}

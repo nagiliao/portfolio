@@ -1,0 +1,271 @@
+.bg-line {
+  -moz-transform-origin: left;
+  -moz-transform: skewY(-8deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(-8deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(-8deg);
+  -ms-transform-origin: left;
+  -ms-transform: skewY(-8deg);
+  transform-origin: left;
+  transform: skewY(-8deg);
+}
+
+.anniversary {
+  width: 100%;
+  height: 2350px;
+  background-image: url(../images/bg_pic.jpg), linear-gradient(to right, #e4e6dd 50%, #dd6464 50%);
+  -webkit-background-image: url(../images/bg_pic.jpg), linear-gradient(to right, #e4e6dd 50%, #dd6464 50%);
+  background-repeat: no-repeat;
+}
+
+.anniversary .header {
+  background-image: url(../images/header.png);
+  background-position: center;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 8;
+}
+
+.anniversary .header p {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.anniversary .line {
+  width: 100%;
+  height: 1750px;
+  position: absolute;
+  display: inline-block;
+  z-index: 9;
+  background-image: url(../images/bg-point.png);
+}
+
+.anniversary .content {
+  width: 1100px;
+  height: 1740px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.anniversary .content-bg {
+  background: #fecf73;
+  -moz-transform-origin: left;
+  -moz-transform: skewY(-8deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(-8deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(-8deg);
+  -ms-transform-origin: left;
+  -ms-transform: skewY(-8deg);
+  transform-origin: left;
+  transform: skewY(-8deg);
+}
+
+.block-1, .block-2, .block-3 {
+  -moz-transform-origin: left;
+  -moz-transform: skewY(8deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(8deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(8deg);
+  -ms-transform-origin: left;
+  -ms-transform: skewY(8deg);
+  transform-origin: left;
+  transform: skewY(8deg);
+  padding: 20px 60px;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  color: #4c230b;
+  line-height: 36px;
+}
+
+.block-1 span, .block-2 span, .block-3 span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.content .block-1 {
+  height: 680px;
+}
+
+.content .block-1 ol {
+  list-style-type: decimal;
+}
+
+.content .block-2 {
+  -moz-transform-origin: left;
+  -moz-transform: skewY(0deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(0deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(0deg);
+  -ms-transform-origin: left;
+  -ms-transform: skewY(0deg);
+  transform-origin: left;
+  transform: skewY(0deg);
+  background-color: #dd6464;
+  color: #fff;
+  height: 320px;
+}
+
+.content .block-3 .sp {
+  color: red;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.block-2 .title, .block-2 .description {
+  -moz-transform-origin: left;
+  -moz-transform: skewY(8deg);
+  -webkit-transform-origin: left;
+  -webkit-transform: skewY(8deg);
+  -o-transform-origin: left;
+  -o-transform: skewY(8deg);
+  -ms-transform-origin: left;
+  -ms-transform: skewY(8deg);
+  transform-origin: left;
+  transform: skewY(8deg);
+}
+
+.content .title {
+  padding: 5px 0 0 45px;
+  font-weight: bold;
+  width: 137px;
+  height: 70px;
+}
+
+.content .car-dark {
+  color: #fff;
+  background-image: url(../images/title.png);
+  background-repeat: no-repeat;
+}
+
+.content .car-light {
+  color: #dd6464;
+  background-image: url(../images/title-gift.png);
+  background-repeat: no-repeat;
+}
+
+.anniversary .header {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+}
+
+.anniversary .bounce {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+.anniversary .slideInUp {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes bounceInRight {
+  from, 60%, 75%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 1);
+  }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-15px, 0, 0);
+    transform: translate3d(-15px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInRight {
+  from, 60%, 75%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 1);
+  }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-15px, 0, 0);
+    transform: translate3d(-15px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-line-grey {
+  width: 970px;
+  height: 150px;
+  background-position: -5px -5px;
+}
+
+.sprite-line-orange {
+  width: 441px;
+  height: 73px;
+  background-position: -5px -165px;
+}
+
+.sprite-line-red {
+  width: 970px;
+  height: 152px;
+  background-position: -5px -248px;
+}
+
+.sprite-line-yellow {
+  width: 970px;
+  height: 151px;
+  background-position: -5px -410px;
+}

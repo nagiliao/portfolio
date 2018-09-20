@@ -1,0 +1,95 @@
+/*set phone*/
+
+.setphone-word{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20.875em;
+    border-radius: 20px;
+    background-color: #ffe6d5;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+    margin-top: 1.5em;
+    padding: 0 1.5em;
+}
+.setphone-word .setphone-word-descripe{
+    border-bottom: 1px solid #fff;
+    font-size: 1.5em;
+    color: #462607;
+    padding: 50px 0;    
+}
+.setphone-word-descripe span{ color: #c44421;}
+.setphone-word .setphone-word-notice{
+    padding: 20px 0;
+    text-align: left;
+    font-size: 1.25em;    
+}
+.setphone-word-notice p{color: #93500e;}
+.setphone-form{
+    padding: 3em 0;
+}
+.setphone-form p,.setphone-number p,.exchange-fin-word p{
+    color: #462607;
+    font-weight: bold;
+    font-size: 1.625em;
+    margin-bottom: 0.5em;
+}
+.setphone-form .setphone-form-text{
+    width: 100%;
+    height: 1.75em;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.3) inset;
+    text-align: center;
+    font-size: 1.875em;
+    color: #ff6900;  
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #d0d0d0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #d0d0d0;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #d0d0d0;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #d0d0d0;
+}
+.setphone-form .setphone-form-submit{
+    background: url(../images/exchange/btn-submit.png) no-repeat;
+    width: 468px;
+    height: 60px;
+    border: 0;
+    margin: 3em 0;
+}
+.setphone-number{
+    width: 100%;
+    height: 7.375em;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin: 3em 0;
+    padding: 1.5em 0;
+}
+.setphone-number .phone-number{
+    color: #ff6900;
+    font-size: 2.25em;
+}
+
+/*exchange fin*/
+.exchange-fin-word{
+    padding: 50px 1.5em;
+}
+.exchange-fin-word .exchange-fin-title{
+    font-size: 2.25em;
+    color: #c44421;
+}
+.exchange-btn{
+    background: url(../images/exchange/btn-goback.png) no-repeat;
+    width: 468px;
+    height: 60px;
+    position: relative;
+    margin: 3em auto;
+}
+
+
+
