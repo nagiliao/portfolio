@@ -3,7 +3,7 @@
 body{
     width: 100%;
     height: auto;
-    font-family:'cwTeXYen',sans-serif,FuturaExtended,arial,"微軟正黑體";
+    font-family:sans-serif,FuturaExtended,arial,'cwTeXYen',"微軟正黑體";
 }
 nav h3{font-size: 2em;}
 video{
